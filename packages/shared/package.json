@@ -1,0 +1,24 @@
+{
+  "name": "@monorepo/shared",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "nokiahub <jeonghj@in8.kr>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.15",
+    "dotenv": "^16.0.1",
+    "typescript": "^4.7.4"
+  }
+}
